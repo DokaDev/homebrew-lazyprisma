@@ -15,5 +15,10 @@ cask "lazyprisma" do
   desc "Prisma migration management TUI"
   homepage "https://github.com/DokaDev/lazyprisma"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-d", "com.apple.quarantine", "#{staged_path}/lazyprisma"]
+  end
+
   binary "lazyprisma"
 end
