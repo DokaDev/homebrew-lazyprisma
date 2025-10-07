@@ -1,14 +1,14 @@
 cask "lazyprisma" do
-  version "0.1.0"
+  version "0.1.1-beta"
 
   on_intel do
-    sha256 "3d96e9c94348332ae6a1e600605b2023594f2e894bec9a381a868ee6874074c9"
-    url "https://github.com/DokaDev/lazyprisma/releases/download/v0.1.0/lazyprisma-v0.1.0-darwin-amd64.tar.gz"
+    sha256 "3c947aea43af70aac583daf11aa9f8910a2e1fab8e7c4b0b197e3662dd69308d"
+    url "https://github.com/DokaDev/lazyprisma/releases/download/v0.1.1-beta/lazyprisma-v0.1.1-beta-darwin-amd64.tar.gz"
   end
 
   on_arm do
-    sha256 "080e94461beda6132f30e0a5440781b3a4540766257eec7504cd9f8c815f1ca6"
-    url "https://github.com/DokaDev/lazyprisma/releases/download/v0.1.0/lazyprisma-v0.1.0-darwin-arm64.tar.gz"
+    sha256 "9eca59852f7627b23aeabfcd09346c968d7bced0b467d2492cdf0168d43ae56f"
+    url "https://github.com/DokaDev/lazyprisma/releases/download/v0.1.1-beta/lazyprisma-v0.1.1-beta-darwin-arm64.tar.gz"
   end
 
   name "lazyprisma"
